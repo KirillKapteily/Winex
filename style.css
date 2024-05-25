@@ -1,0 +1,319 @@
+:root{
+    --accent-color:#e22be2;
+    --optical-glass:#f0ffff75;
+    --hover-color:#ae2be2;
+}
+
+.Wi{
+    text-decoration: none;
+    font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 3%;
+color: var(--accent-color);
+}
+
+.nex{
+    text-decoration: none;
+    font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+color: rgb(0, 0, 0);
+}
+
+.nex2{
+    text-decoration: none;
+    font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+color: rgb(255, 255, 255);
+}
+
+.header-link{
+    text-decoration: none;
+    font-family: "Roboto";
+font-weight: 700;
+list-style: none;
+
+}
+
+body{
+    font-family: "Roboto";
+    font-weight: 700; 
+}
+
+.main-title{
+    font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+color: azure;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Products-amazing{
+    width: 1600;
+  height: 600px;
+  background-image: url("pro-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.our-products-item{
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px 10px;
+    padding-top: 20px;
+    list-style: none;
+    background-color: var(--optical-glass);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.our-products-item-test{
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 10px;
+  padding-top: 20px;
+  list-style: none;
+  background-color: var(--optical-glass);
+  border-radius: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.our-products-item:hover{
+    
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  transform:perspective(1.1)
+}
+
+.bodyb{
+  background-image: url(ariai.svg);
+}
+
+.product-img{
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 10px;
+  list-style: none;
+  background-color: var(--optical-glass);
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.product-img:hover{
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.our-products-item:hover{
+    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1.1);
+
+    
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  /* outline: red 1px solid; */
+}
+
+.our-servise-item{
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px 10px;
+    list-style: none;
+    background-color: var(--optical-glass);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.name{
+  text-decoration: none;
+  color: black;
+}
+
+.info-item{
+  border: 1px solid #ccc;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 5px;
+    list-style: none;
+    background-color: var(--optical-glass);
+    border-radius: 10px;
+}
+
+.our-servise-list{
+   padding-left: 0px;
+    display: flex;
+    gap: 30px;
+    background-image: url("susbtrate.jpg");
+    justify-content: center;
+    border-radius: 10px; 
+}
+
+.our-servise-list-2{
+  padding-left: 0px;
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   border-radius: 10px; 
+}
+
+.our-product-picture-list{
+    border-radius: 10px;
+}
+
+.our-servise-picture-list{
+    border-radius: 10px;
+}
+
+.our-products-list{
+    padding-left: 0px;
+    display: flex;
+    gap: 30px;
+    background-image: url("susbtrate.jpg");
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.our-products-list-2{
+    padding-left: 0px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.info-list{
+  padding-left: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.our-servise-item:hover{
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1.1);
+}
+
+.Our-products{
+    display: flex;
+    justify-content: center;
+}
+
+.bodyb2{
+background-image: url("bop.svg");
+}
+
+.button-pro{
+    font-family: "Roboto";
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    width: 216px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.list-of-products{
+width: 600px;
+height: 1000px;
+}
+
+.button-pro:hover{
+    color: white;
+    background-color:var(--hover-color) ;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1.1);
+    
+}
+
+footer{
+    list-style: none;
+    height: 252px;
+  padding-top: 60px;
+  background-image: url("susbtrate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.header-link:hover{
+    color: var(--accent-color);
+  }
+
+  .header-link{
+    color: black;
+  }
+
+.header-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-right: auto;
+    width: 676px;
+    color: var(--accent-color);
+  }
+
+.footer-item{
+    list-style: none;
+}
+
+  .header-page {
+    display: flex;
+  }
+
+  header{
+    background-color: var(--optical-glass);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+
+  .mailto{
+    color: beige;
+    text-decoration: none;
+  }
+
+  .our-servises{
+    display: flex;
+    justify-content: center;
+  }
+  
