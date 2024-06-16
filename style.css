@@ -82,12 +82,14 @@ text-align: center;
     list-style: none;
     background-color: var(--optical-glass);
     border-radius: 10px;
+    backdrop-filter: blur(10px);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .our-products-item-test{
   border: 1px solid #ccc;
   text-align: center;
+  backdrop-filter: blur(10px);
   padding: 10px 10px;
   padding-top: 20px;
   list-style: none;
@@ -148,6 +150,7 @@ text-align: center;
     list-style: none;
     background-color: var(--optical-glass);
     border-radius: 10px;
+    backdrop-filter: blur(10px);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -174,6 +177,7 @@ text-align: center;
     background-image: url("susbtrate.jpg");
     justify-content: center;
     border-radius: 10px; 
+    
 }
 
 .our-servise-list-2{
@@ -214,6 +218,7 @@ text-align: center;
   padding-left: 0px;
     display: flex;
     gap: 20px;
+    backdrop-filter: blur(10px);
     justify-content: center;
     border-radius: 10px;
 }
@@ -224,6 +229,7 @@ text-align: center;
     border-radius: 10px;
     text-align: center;
     transform: scale(1.1);
+    backdrop-filter: blur(10px);
 }
 
 .Our-products{
