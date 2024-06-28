@@ -298,9 +298,25 @@ footer{
     color: var(--accent-color);
   }
 
+.footer-list{
+
+}
+
+.footer-link{
+  
+  color: white;
+}
+
 .footer-item{
     list-style: none;
+    text-decoration: none;
 }
+
+.footer-item2{
+  list-style: none;
+  color: white;
+}
+
 
   .header-page {
     display: flex;
