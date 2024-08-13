@@ -80,7 +80,7 @@ text-align: center;
     padding: 10px 10px;
     padding-top: 20px;
     list-style: none;
-    background-color: var(--optical-glass);
+    
     border-radius: 10px;
     backdrop-filter: blur(10px);
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -93,7 +93,6 @@ text-align: center;
   padding: 10px 10px;
   padding-top: 20px;
   list-style: none;
-  background-color: var(--optical-glass);
   border-radius: 10px;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -107,7 +106,8 @@ text-align: center;
 }
 
 .bodyb{
-  background-image: url(ariai.svg);
+  background-image: url(shattered-feelings@4000x2250px.svg);
+  background-repeat: round;
 }
 
 .product-img{
@@ -148,7 +148,6 @@ text-align: center;
     text-align: center;
     padding: 10px 10px;
     list-style: none;
-    background-color: var(--optical-glass);
     border-radius: 10px;
     backdrop-filter: blur(10px);
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -158,6 +157,7 @@ text-align: center;
 .name{
   text-decoration: none;
   color: black;
+  text-shadow:white;
 }
 
 .info-item{
@@ -166,7 +166,7 @@ text-align: center;
     font-size: 20px;
     padding: 5px 5px;
     list-style: none;
-    background-color: var(--optical-glass);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
 }
 
@@ -174,10 +174,9 @@ text-align: center;
    padding-left: 0px;
     display: flex;
     gap: 30px;
-    background-image: url("susbtrate.jpg");
     justify-content: center;
     border-radius: 10px; 
-    
+    flex-wrap: wrap;
 }
 
 .our-servise-list-2{
@@ -200,7 +199,6 @@ text-align: center;
     padding-left: 0px;
     display: flex;
     gap: 30px;
-    background-image: url("susbtrate.jpg");
     justify-content: center;
     border-radius: 10px;
 }
